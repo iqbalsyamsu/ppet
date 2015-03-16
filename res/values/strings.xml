@@ -3,5 +3,6 @@
 
     <string name="hello">DDS</string>
     <string name="app_name">PPET</string>
+    <string name="testhtml"><h2>Hider</h2>Ini tulisan yah, dan ini <i>miring</i> kok</string>
 
 </resources>
