@@ -5,6 +5,7 @@ import android.os.*;
 import android.view.*;
 import android.widget.*;
 import android.text.Html;
+import android.graphics.drawable.Drawable;
 
 public class MainActivity extends Activity
 {
