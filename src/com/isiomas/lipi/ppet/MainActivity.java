@@ -9,6 +9,7 @@ import android.graphics.drawable.Drawable;
 
 public class MainActivity extends Activity
 {
+	Button button;
 	private final String htmlText = "<body><h1>Heading Text</h1><p>This tutorial " +
             "explains how to display " +
             "<strong>HTML </strong>text in android text view.&nbsp;</p>" +
