@@ -7,6 +7,7 @@ import android.widget.*;
 import android.text.Html;
 import android.graphics.drawable.Drawable;
 import android.view.View.OnClickListener;
+import android.widget.Button.*;
 
 public class MainActivity extends Activity
 {
