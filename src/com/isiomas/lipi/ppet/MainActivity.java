@@ -27,6 +27,7 @@ public class MainActivity extends Activity
 //		htmlTextView.setText(Html.fromHtml(htmlText, new ImageGetter(), null));
     }
 
+/*
 	private class ImageGetter implements Html.ImageGetter {
 
 	public Drawable getDrawable(String source) {
@@ -43,4 +44,5 @@ public class MainActivity extends Activity
 		return d;
 	}
 	};
+	*/
 }
