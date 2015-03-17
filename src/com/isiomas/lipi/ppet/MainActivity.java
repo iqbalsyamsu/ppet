@@ -8,6 +8,7 @@ import android.text.Html;
 import android.graphics.drawable.Drawable;
 import android.view.View.OnClickListener;
 import android.widget.Button.*;
+import android.content.Intent;
 
 public class MainActivity extends Activity
 {
