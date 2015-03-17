@@ -23,8 +23,8 @@ public class MainActivity extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
-		TextView htmlTextView = (TextView)findViewById(R.id.html_text);
-		htmlTextView.setText(Html.fromHtml(htmlText, new ImageGetter(), null));
+//		TextView htmlTextView = (TextView)findViewById(R.id.html_text);
+//		htmlTextView.setText(Html.fromHtml(htmlText, new ImageGetter(), null));
     }
 
 	private class ImageGetter implements Html.ImageGetter {
