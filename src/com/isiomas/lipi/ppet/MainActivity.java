@@ -9,6 +9,7 @@ import android.graphics.drawable.Drawable;
 import android.view.View.OnClickListener;
 import android.widget.Button.*;
 import android.content.Intent;
+import android.content.Context;
 
 public class MainActivity extends Activity
 {
@@ -33,6 +34,7 @@ public class MainActivity extends Activity
     }
 
 	public void addListenerOnButton() {
+		final Context context = this;
 		button = (Button) findViewById(R.id.staffButton);
 		button.setOnClickListener(new OnClickListener() {
 			@Override
