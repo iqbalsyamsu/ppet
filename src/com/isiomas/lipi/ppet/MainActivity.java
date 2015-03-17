@@ -23,10 +23,22 @@ public class MainActivity extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
+		addListenerOnButton();
 //		TextView htmlTextView = (TextView)findViewById(R.id.html_text);
 //		htmlTextView.setText(Html.fromHtml(htmlText, new ImageGetter(), null));
     }
 
+	public void addListenerOnButton() {
+		button = (Button) findViewById(R.id.staffButton);
+		button.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+			Intent intent = new Intent(context, StaffListActivity.class);
+				startActivity(intent);
+ 			}
+ 		});
+ 
+	}
 /*
 	private class ImageGetter implements Html.ImageGetter {
 
